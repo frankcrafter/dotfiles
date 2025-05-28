@@ -1,52 +1,51 @@
-live_config_reload = true
-
 [colors]
 draw_bold_text_with_bright_colors = true
 
-# Default colors
-[colors.primary]
-background = '#00141a' #color.base04
-foreground = '#839495' #color.fg
-
-# Normal colors
-[colors.normal]
-black   = '#00141a' #color.base04
-red     = '#dc312e' #color.red
-green   = '#859900' #color.green
-yellow  = '#b38600' #color.yellow
-blue    = '#278bd3' #color.blue
-magenta = '#d33682' #color.magenta
-cyan    = '#2aa298' #color.cyan
-white   = '#ede7d4' #color.base2
-
-# Bright colors
-[colors.bright]
-black   = '#002d38' #color.base03
-red     = '#f65351' #color.red300
-green   = '#b7fa00' #color.green300
-yellow  = '#ffbf00' #color.yellow300
-blue    = '#47adf5' #color.blue300
-magenta = '#f254a1' #color.magenta300
-cyan    = '#2beede' #color.cyan300
-white   = '#fdf6e2' #color.base3
-
 [font]
-size = 7.5
+size = 8
+
+[colors.bright]
+black = "#585273"
+blue = "#78a8ff"
+cyan = "#63f2f1"
+green = "#7fe9c3"
+magenta = "#7676ff"
+red = "#f02e6e"
+white = "#8a889d"
+yellow = "#f2b482"
+
+[colors.cursor]
+cursor = "#a1efd3"
+text = "#1e1c31"
+
+[colors.normal]
+black = "#1e1c31"
+blue = "#91ddff"
+cyan = "#abf8f7"
+green = "#a1efd3"
+magenta = "#d4bfff"
+red = "#f48fb1"
+white = "#cbe3e7"
+yellow = "#ffe6b3"
+
+[colors.primary]
+background = "#1e1c31"
+foreground = "#cbe3e7"
 
 [font.normal]
-family = "IntoneMonoNerdFont"
+family = "LigaSFMonoNerdFont"
 style = "Regular"
 
 [font.bold]
-family = "IntoneMonoNerdFont"
+family = "LigaSFMonoNerdFont"
 style = "Bold"
 
 [font.bold_italic]
-family = "IntoneMonoNerdFont"
+family = "LigaSFMonoNerdFont"
 style = "Bold Italic"
 
 [font.italic]
-family = "IntoneMonoNerdFont"
+family = "LigaSFMonoNerdFont"
 style = "Italic"
 
 [window.dimensions]
@@ -55,8 +54,12 @@ lines = 33
 
 [scrolling]
 history = 10000
-multiplier = 10
+multiplier = 12
+
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/rose-pine-moon.toml"]
 
 [window.padding]
-x = 3
-y = 3
+x = 7
+y = 7
