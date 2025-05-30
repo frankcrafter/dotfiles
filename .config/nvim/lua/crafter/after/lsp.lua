@@ -13,7 +13,6 @@ require("mason-lspconfig").setup({
 		"html",
 		"lua_ls",
 		"tailwindcss",
-		"tsserver",
 	},
 })
 
@@ -37,10 +36,6 @@ require("lspconfig").lua_ls.setup({
 			},
 		},
 	},
-})
-
-require("lspconfig").tsserver.setup({
-	capabilities = capabilities,
 })
 
 require("lspconfig").cssls.setup({
