@@ -73,7 +73,7 @@ return {
 				formatting = {
 					format = function(_, vim_item)
 						vim_item.kind = " " .. lspkind.symbolic(vim_item.kind, { mode = "symbol" }) .. " "
-						local maxwidth = 50
+						local maxwidth = 35
 						vim_item.abbr = " " .. string.sub(vim_item.abbr, 1, maxwidth) .. "   "
 						return vim_item
 					end,
