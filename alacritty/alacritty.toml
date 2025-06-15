@@ -1,0 +1,60 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 8
+
+[colors.primary]
+background = "#242340"
+foreground = "#ebefff"
+
+[colors.normal]
+black = "#242340"
+red = "#f45c7f"
+green = "#addb67"
+yellow = "#ecc48d"
+blue = "#9fd4ff"
+magenta = "#fd98b9"
+cyan = "#7fdbca"
+white = "#ebefff"
+
+[colors.bright]
+black = "#242340"
+red = "#f45c7f"
+green = "#addb67"
+yellow = "#ecc48d"
+blue = "#9fd4ff"
+magenta = "#fd98b9"
+cyan = "#7fdbca"
+white = "#ebefff"
+
+[font.normal]
+family = "HackNerdFont"
+style = "Regular"
+
+[font.bold]
+family = "HackNerdFont"
+style = "Bold"
+
+[font.bold_italic]
+family = "HackNerdFont"
+style = "Bold Italic"
+
+[font.italic]
+family = "HackNerdFont"
+style = "Italic"
+
+[window.dimensions]
+columns = 128
+lines = 33
+
+[scrolling]
+history = 10000
+multiplier = 12
+
+[general]
+live_config_reload = true
+
+[window.padding]
+x = 7
+y = 7
